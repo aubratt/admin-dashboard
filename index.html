@@ -9,30 +9,28 @@
     <body>
         <div id="container">
             <div id="header">
-                <div id="header-top">
-                    <div id="search">
-                        <img src="icons/magnify.svg" alt="Search icon" class="icon" />
-                        <input id="search-bar" type="text" />
-                    </div>
-                    <div id="account-info">
-                        <img src="icons/bell-outline.svg" alt="Notifications icon" class="icon" />
-                        <img src="images/cat.jpg" alt="Cat with sunglasses" id="header-top-pic" />
-                        <p>Morgan Oakley</p>
+                <div id="search">
+                    <img src="icons/magnify.svg" alt="Search icon" class="icon search-icon" />
+                    <input id="search-bar" type="text" />
+                </div>
+                <div id="account-info">
+                    <div></div>
+                    <img src="icons/bell-outline.svg" alt="Notifications icon" class="icon" />
+                    <img src="images/cat.jpg" alt="Cat with sunglasses" id="header-top-pic" />
+                    <p>Morgan Oakley</p>
+                </div>
+
+                <div id="greeting">
+                    <img src="images/cat.jpg" alt="Cat with sunglasses" id="header-bottom-pic" />
+                    <div id="greeting-text">
+                        <p id="hi-there">Hi there,</p>
+                        <p id="greeting-name">Morgan Oakley (@morgan)</p>
                     </div>
                 </div>
-                <div id="header-bottom">
-                    <div id="header-greeting">
-                        <img src="images/cat.jpg" alt="Cat with sunglasses" id="header-bottom-pic" />
-                        <div id="greeting-text">
-                            <p>Hi there,</p>
-                            <p>Morgan Oakley (@morgan)</p>
-                        </div>
-                    </div>
-                    <div id="action-btns">
-                        <button class="action-btn">New</button>
-                        <button class="action-btn">Upload</button>
-                        <button class="action-btn">Share</button>
-                    </div>
+                <div id="action-btns">
+                    <button class="action-btn new-btn">New</button>
+                    <button class="action-btn upload-btn">Upload</button>
+                    <button class="action-btn">Share</button>
                 </div>
             </div>
             <div id="sidebar">
@@ -83,67 +81,55 @@
             </div>
             <div id="main-content">
                 <div id="your-projects">
-                    <p>Your Projects</p>
+                    <p id="projects-heading">Your Projects</p>
                     <div id="project-cards">
                         <div class="project-card">
                             <p class="project-card-title">Super Cool Project</p>
                             <p class="project-card-content"></p>
-                            <div class="project-card-btns">
-                                <img src="icons/star-plus-outline.svg" alt="Favorite icon" class="icon" />
-                                <img src="icons/eye-plus-outline.svg" alt="Watch icon" class="icon" />
-                                <img src="icons/share-variant-outline.svg" alt="Share icon" class="icon" />
-                            </div>
+                            <img src="icons/star-plus-outline.svg" alt="Favorite icon" class="icon fave-icon" />
+                            <img src="icons/eye-plus-outline.svg" alt="Watch icon" class="icon watch-icon" />
+                            <img src="icons/share-variant-outline.svg" alt="Share icon" class="icon share-icon" />
                         </div>
                         <div class="project-card">
                             <p class="project-card-title">Less Cool Project</p>
                             <p class="project-card-content"></p>
-                            <div class="project-card-btns">
-                                <img src="icons/star-plus-outline.svg" alt="Favorite icon" class="icon" />
-                                <img src="icons/eye-plus-outline.svg" alt="Watch icon" class="icon" />
-                                <img src="icons/share-variant-outline.svg" alt="Share icon" class="icon" />
-                            </div>
+                            <img src="icons/star-plus-outline.svg" alt="Favorite icon" class="icon fave-icon" />
+                            <img src="icons/eye-plus-outline.svg" alt="Watch icon" class="icon watch-icon" />
+                            <img src="icons/share-variant-outline.svg" alt="Share icon" class="icon share-icon" />
                         </div>
                         <div class="project-card">
                             <p class="project-card-title">Impossible App</p>
                             <p class="project-card-content"></p>
-                            <div class="project-card-btns">
-                                <img src="icons/star-plus-outline.svg" alt="Favorite icon" class="icon" />
-                                <img src="icons/eye-plus-outline.svg" alt="Watch icon" class="icon" />
-                                <img src="icons/share-variant-outline.svg" alt="Share icon" class="icon" />
-                            </div>
+                            <img src="icons/star-plus-outline.svg" alt="Favorite icon" class="icon fave-icon" />
+                            <img src="icons/eye-plus-outline.svg" alt="Watch icon" class="icon watch-icon" />
+                            <img src="icons/share-variant-outline.svg" alt="Share icon" class="icon share-icon" />
                         </div>
                         <div class="project-card">
                             <p class="project-card-title">Easy Peasy App</p>
                             <p class="project-card-content"></p>
-                            <div class="project-card-btns">
-                                <img src="icons/star-plus-outline.svg" alt="Favorite icon" class="icon" />
-                                <img src="icons/eye-plus-outline.svg" alt="Watch icon" class="icon" />
-                                <img src="icons/share-variant-outline.svg" alt="Share icon" class="icon" />
-                            </div>
+                            <img src="icons/star-plus-outline.svg" alt="Favorite icon" class="icon fave-icon" />
+                            <img src="icons/eye-plus-outline.svg" alt="Watch icon" class="icon watch-icon" />
+                            <img src="icons/share-variant-outline.svg" alt="Share icon" class="icon share-icon" />
                         </div>
                         <div class="project-card">
                             <p class="project-card-title">Ad Blocker</p>
                             <p class="project-card-content"></p>
-                            <div class="project-card-btns">
-                                <img src="icons/star-plus-outline.svg" alt="Favorite icon" class="icon" />
-                                <img src="icons/eye-plus-outline.svg" alt="Watch icon" class="icon" />
-                                <img src="icons/share-variant-outline.svg" alt="Share icon" class="icon" />
-                            </div>
+                            <img src="icons/star-plus-outline.svg" alt="Favorite icon" class="icon fave-icon" />
+                            <img src="icons/eye-plus-outline.svg" alt="Watch icon" class="icon watch-icon" />
+                            <img src="icons/share-variant-outline.svg" alt="Share icon" class="icon share-icon" />
                         </div>
                         <div class="project-card">
                             <p class="project-card-title">Money Maker</p>
                             <p class="project-card-content"></p>
-                            <div class="project-card-btns">
-                                <img src="icons/star-plus-outline.svg" alt="Favorite icon" class="icon" />
-                                <img src="icons/eye-plus-outline.svg" alt="Watch icon" class="icon" />
-                                <img src="icons/share-variant-outline.svg" alt="Share icon" class="icon" />
-                            </div>
+                            <img src="icons/star-plus-outline.svg" alt="Favorite icon" class="icon fave-icon" />
+                            <img src="icons/eye-plus-outline.svg" alt="Watch icon" class="icon watch-icon" />
+                            <img src="icons/share-variant-outline.svg" alt="Share icon" class="icon share-icon" />
                         </div>
                     </div>
                 </div>
                 <div id="announcements">
-                    <p>Announcements</p>
-                    <div id="announcements-cards">
+                    <p id="announcements-heading">Announcements</p>
+                    <div id="announcement-cards">
                         <div class="announcement-card">
                             <p class="announcement-card-title">Site Maintenance</p>
                             <p class="announcement-card-content"></p>
@@ -159,7 +145,7 @@
                     </div>
                 </div>
                 <div id="trending">
-                    <p>Trending</p>
+                    <p id="trending-heading">Trending</p>
                     <div id="trending-cards">
                         <div class="trending-card">
                             <img src="" class="trending-card-pic" />
