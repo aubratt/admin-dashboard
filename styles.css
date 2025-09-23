@@ -47,3 +47,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Admin Dashboard */
+.icon {
+    width: 28px;
+    height: 28px;
+}
+
+#header-top-pic {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+#header-bottom-pic {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}

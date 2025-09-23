@@ -1,12 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="styles.css"> 
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Admin Dashboard</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <div id="header-top">
+                    <div id="search">
+                        <img src="icons/magnify.svg" alt="Search icon" class="icon" />
+                        <input id="search-bar" type="text" />
+                    </div>
+                    <div id="account-info">
+                        <img src="icons/bell-outline.svg" alt="Notifications icon" class="icon" />
+                        <img src="images/cat.jpg" alt="Cat with sunglasses" id="header-top-pic" />
+                        <p>Morgan Oakley</p>
+                    </div>
+                </div>
+                <div id="header-bottom">
+                    <div id="header-greeting">
+                        <img src="images/cat.jpg" alt="Cat with sunglasses" id="header-bottom-pic" />
+                        <div id="greeting-text">
+                            <p>Hi there,</p>
+                            <p>Morgan Oakley (@morgan)</p>
+                        </div>
+                    </div>
+                    <div id="action-btns">
+                        <button class="action-btn">New</button>
+                        <button class="action-btn">Upload</button>
+                        <button class="action-btn">Share</button>
+                    </div>
+                </div>
+            </div>
+            <div id="sidebar">
+                <div id="sidebar-heading">
+                    <img src="icons/view-dashboard.svg" alt="Dashboard icon" class="icon" />
+                    <h1>Dashboard</h1>
+                </div>
+                <div id="nav-links">
+                    <div class="link">
+                        <img src="icons/home.svg" alt="Home icon" class="icon" />
+                        <p class="link-text">Home</p>
+                    </div>
+                    <div class="link">
+                        <img src="icons/card-account-details.svg" alt="Profile icon" class="icon" />
+                        <p class="link-text">Profile</p>
+                    </div>
+                    <div class="link">
+                        <img src="icons/message.svg" alt="Messages icon" class="icon" />
+                        <p class="link-text">Messages</p>
+                    </div>
+                    <div class="link">
+                        <img src="icons/history.svg" alt="History icon" class="icon" />
+                        <p class="link-text">History</p>
+                    </div>
+                    <div class="link">
+                        <img src="icons/format-list-checks.svg" alt="Tasks icon" class="icon" />
+                        <p class="link-text">Tasks</p>
+                    </div>
+                    <div class="link">
+                        <img src="icons/account-group.svg" alt="Communities icon" class="icon" />
+                        <p class="link-text">Communities</p>
+                    </div>
+                </div>
+                <div id="settings-links">
+                    <div class="link">
+                        <img src="icons/cog.svg" alt="Settings icon" class="icon" />
+                        <p class="link-text">Settings</p>
+                    </div>
+                    <div class="link">
+                        <img src="icons/face-agent.svg" alt="Support icon" class="icon" />
+                        <p class="link-text">Support</p>
+                    </div>
+                    <div class="link">
+                        <img src="icons/shield-check.svg" alt="Privacy icon" class="icon" />
+                        <p class="link-text">Privacy</p>
+                    </div>
+                </div>
+            </div>
+            <div id="main-content">
+                <div id="your-projects">
+                    <p>Your Projects</p>
+                    <div id="project-cards">
+                        <div class="project-card">
+                            <p class="project-card-title">Super Cool Project</p>
+                            <p class="project-card-content"></p>
+                            <div class="project-card-btns">
+                                <img src="icons/star-plus-outline.svg" alt="Favorite icon" class="icon" />
+                                <img src="icons/eye-plus-outline.svg" alt="Watch icon" class="icon" />
+                                <img src="icons/share-variant-outline.svg" alt="Share icon" class="icon" />
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <p class="project-card-title">Less Cool Project</p>
+                            <p class="project-card-content"></p>
+                            <div class="project-card-btns">
+                                <img src="icons/star-plus-outline.svg" alt="Favorite icon" class="icon" />
+                                <img src="icons/eye-plus-outline.svg" alt="Watch icon" class="icon" />
+                                <img src="icons/share-variant-outline.svg" alt="Share icon" class="icon" />
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <p class="project-card-title">Impossible App</p>
+                            <p class="project-card-content"></p>
+                            <div class="project-card-btns">
+                                <img src="icons/star-plus-outline.svg" alt="Favorite icon" class="icon" />
+                                <img src="icons/eye-plus-outline.svg" alt="Watch icon" class="icon" />
+                                <img src="icons/share-variant-outline.svg" alt="Share icon" class="icon" />
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <p class="project-card-title">Easy Peasy App</p>
+                            <p class="project-card-content"></p>
+                            <div class="project-card-btns">
+                                <img src="icons/star-plus-outline.svg" alt="Favorite icon" class="icon" />
+                                <img src="icons/eye-plus-outline.svg" alt="Watch icon" class="icon" />
+                                <img src="icons/share-variant-outline.svg" alt="Share icon" class="icon" />
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <p class="project-card-title">Ad Blocker</p>
+                            <p class="project-card-content"></p>
+                            <div class="project-card-btns">
+                                <img src="icons/star-plus-outline.svg" alt="Favorite icon" class="icon" />
+                                <img src="icons/eye-plus-outline.svg" alt="Watch icon" class="icon" />
+                                <img src="icons/share-variant-outline.svg" alt="Share icon" class="icon" />
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <p class="project-card-title">Money Maker</p>
+                            <p class="project-card-content"></p>
+                            <div class="project-card-btns">
+                                <img src="icons/star-plus-outline.svg" alt="Favorite icon" class="icon" />
+                                <img src="icons/eye-plus-outline.svg" alt="Watch icon" class="icon" />
+                                <img src="icons/share-variant-outline.svg" alt="Share icon" class="icon" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="announcements">
+                    <p>Announcements</p>
+                    <div id="announcements-cards">
+                        <div class="announcement-card">
+                            <p class="announcement-card-title">Site Maintenance</p>
+                            <p class="announcement-card-content"></p>
+                        </div>
+                        <div class="announcement-card">
+                            <p class="announcement-card-title">Community Share Day</p>
+                            <p class="announcement-card-content"></p>
+                        </div>
+                        <div class="announcement-card">
+                            <p class="announcement-card-title">Updated Privacy Policy</p>
+                            <p class="announcement-card-content"></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="trending">
+                    <p>Trending</p>
+                    <div id="trending-cards">
+                        <div class="trending-card">
+                            <img src="" class="trending-card-pic" />
+                            <div class="trending-card-profile">
+                                <p class="trending-card-username">@tegan</p>
+                                <p class="trending-card-title">World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="trending-card">
+                            <img class="trending-card-pic" />
+                            <div class="trending-card-profile">
+                                <p class="trending-card-username">@morgan</p>
+                                <p class="trending-card-title">Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="trending-card">
+                            <img class="trending-card-pic" />
+                            <div class="trending-card-profile">
+                                <p class="trending-card-username">@kendall</p>
+                                <p class="trending-card-title">Life Changing App</p>
+                            </div>
+                        </div>
+                        <div class="trending-card">
+                            <img class="trending-card-pic" />
+                            <div class="trending-card-profile">
+                                <p class="trending-card-username">@alex</p>
+                                <p class="trending-card-title">No Traffic Maker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
